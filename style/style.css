@@ -3,6 +3,9 @@
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
+:root{
+    --demo-color: #207398:
+}
 .scrolleff{
     padding: 15px 80px;
     color: #fff;
