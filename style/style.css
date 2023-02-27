@@ -8,11 +8,12 @@
 } 
 a{
     color: #285753 !important;
+    text-decoration: none !important;
 }
 
-nav ul li a:hover{
+nav ul li a:hover,.link-hover:hover{
     color: #000 !important;
-    text-decoration: underline;
+    text-decoration: underline !important;
 }
 #text-white:hover{
     color:#fff !important;
@@ -40,6 +41,14 @@ nav .form-control:focus .btn{
     left: 50%;
     top: -50%;
 }
+.positioning-headline{
+    top: 31%;
+    left: 8%;
+}
+
+
+/* ############################ recipe-intro ############################ */
+
 .positioning{
     top: 70%;
     right: 10%;
@@ -56,3 +65,4 @@ nav .form-control:focus .btn{
 .cust::before{
     content: "🍳";
 }
+
