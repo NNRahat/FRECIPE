@@ -133,16 +133,16 @@
     </div>
   </header>
   <main>
-    <section class="d-flex justify-content-center align-items-center px-3" style="height: 600px;width: 100vw">
-      <div id="carouselExampleAutoplaying" class="carousel slide w-100 h-100 overflow-hidden" data-bs-ride="carousel">
+    <section class="d-flex justify-content-center align-items-center px-0 w-100" style="height: 600px;width: 100vw">
+      <div id="carouselExampleAutoplaying" class="carousel slide w-100 h-100 overflow-hidden " data-bs-ride="carousel">
         <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0" class="active bg-pink px-3 me-2" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1" class="bg-pink px-3 me-2" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="2" class="bg-pink px-3 me-2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0" class="active bg-lightgreen px-3 me-2" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1" class="bg-lightgreen px-3 me-2" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="2" class="bg-lightgreen px-3 me-2" aria-label="Slide 3"></button>
         </div>
         <div class="carousel-inner bg-hero">
           <div class="carousel-item active container-fluid ">
-              <span class="d-flex justify-content-center mb-3 mb-sm-3">
+              <span class="position-relative d-flex justify-content-center mb-3 mb-sm-3">
                 <img class="h-100 ps-5 ms-5" src="images/main-cover3.jpg"  alt="...">
               </span>
           </div>
@@ -159,14 +159,22 @@
         </div>
       </div>
       <div class="card position-absolute positioning" style="width: 18rem;">
-        <img src="images/favicon.png" class="card-img-top" alt="...">
+        <div class="position-relative overflow-hidden w-100" style="height: 100px;">
+          <img src="images/favicon.png" class="card-img-top img-in-the-card" alt="...">
+        </div>
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <ul>
+            <li class="cust">Cook</li>
+            <li class="cust">Additional</li>
+            <li class="cust">Total</li>
+            <li class="cust">Servings</li>
+            <li class="cust">Yield</li>
+          </ul>
         </div>
       </div>
+      
     </section>
+    
   </main>
 
 

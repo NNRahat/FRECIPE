@@ -35,7 +35,24 @@ nav .form-control:focus .btn{
     /*Without this, clicking will make it sticky*/
       pointer-events: none;
   }
+.hero-img{
+    margin-left: -143px;
+    left: 50%;
+    top: -50%;
+}
 .positioning{
     top: 70%;
     right: 10%;
+}
+.img-in-the-card{
+    position: absolute;
+    margin-left: -143px;
+    left: 50%;
+    top: -50%;
+}
+.cust{
+    list-style: none;
+}
+.cust::before{
+    content: "🥕";
 }
