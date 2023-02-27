@@ -54,5 +54,5 @@ nav .form-control:focus .btn{
     list-style: none;
 }
 .cust::before{
-    content: "🥕";
+    content: "🍳";
 }
