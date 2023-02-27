@@ -22,11 +22,11 @@
 </head>
 
 <body>
-  <header>
+  <header class="">
     <!-- place navbar here -->
-    <nav class="navbar navbar-expand-lg bg-body-primary d-flex justify-content-center align-items-center px-2">
+    <nav class="navbar navbar-expand-lg pb-0 bg-body-primary d-flex justify-content-center align-items-center px-2">
       <div class="container-fluid my-3 d-lg-flex justify-content-between align-items-center">
-        <div class="row w-100 gx-lg-0">
+        <div class="row w-100">
           <div class="logo col-10 col-lg-1">
             <h2 class="fs-1 fw-bold">Frec<Span id="lgdes">i</Span>pe<Span id="lgdes">.</Span></h2>
           </div>
@@ -34,24 +34,24 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse d-lg-flex justify-content-between col-lg-11 align-items-center" id="navbarScroll">
-                <ul class="navbar-nav my-2 navbar-nav-scroll w-100 ps-lg-5 fs-5 d-flex flex-column justify-content-start flex-lg-row justify-content-lg-start" style="--bs-scroll-height: 200px;">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#"><b>Home</b></a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#"><b>Recipes</b></a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#"><b>Trending</b></a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link ms-lg-2 px-4 bg-darkgreen text-light rounded-3" id="text-white" aria-current="page" href=""><b>Login</b></a>
-                  </li>
-                </ul>
-                <form class="input-group mw-100 mt-5 my-lg-0" role="search">
-                  <input type="text" class="form-control rounded-start-pill border-0 bg-gray py-3 px-4 " placeholder="search" aria-label="" aria-describedby="button-addon2">
-                  <button class="btn btn-outline-secondary rounded-end-pill py-2 px-4 border-0 bg-gray" type="button" id="button-addon2"><i class="fa-solid fa-magnifying-glass"></i></button>
-                </form>
+              <ul class="navbar-nav my-2 navbar-nav-scroll w-100 ps-lg-5 fs-5 d-flex flex-column justify-content-start flex-lg-row justify-content-lg-start" style="--bs-scroll-height: 200px;">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"><b>Home</b></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"><b>Recipes</b></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"><b>Trending</b></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link ms-lg-2 px-4 bg-darkgreen text-light rounded-3" id="text-white" aria-current="page" href=""><b>Login</b></a>
+                </li>
+              </ul>
+              <form class="input-group mw-100 mt-5 my-lg-0" role="search">
+                <input type="text" class="form-control rounded-start-pill border-0 bg-gray py-3 px-4 " placeholder="search" aria-label="" aria-describedby="button-addon2">
+                <button class="btn btn-outline-secondary rounded-end-pill py-2 px-4 border-0 bg-gray" type="button" id="button-addon2"><i class="fa-solid fa-magnifying-glass"></i></button>
+              </form>
           </div>
         </div>
       </div>
@@ -127,14 +127,46 @@
           </li>
           <li class="nav-item mx-2 fs-6 fw-bolder">
           <a class="nav-link" href="#">ABOUT US</a>
-        </li>
+          </li>
         </ul>
       </nav>
     </div>
   </header>
   <main>
-    <!--##################### hero ##################### -->
-
+    <section class="d-flex justify-content-center align-items-center px-3" style="height: 600px;width: 100vw">
+      <div id="carouselExampleAutoplaying" class="carousel slide w-100 h-100 overflow-hidden" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0" class="active bg-pink px-3 me-2" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1" class="bg-pink px-3 me-2" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="2" class="bg-pink px-3 me-2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner bg-hero">
+          <div class="carousel-item active container-fluid ">
+              <span class="d-flex justify-content-center mb-3 mb-sm-3">
+                <img class="h-100 ps-5 ms-5" src="images/main-cover3.jpg"  alt="...">
+              </span>
+          </div>
+          <div class="carousel-item container-fluid ">
+              <span class="d-flex justify-content-center mb-3 mb-sm-3">
+                <img class="h-100 ps-5 ms-5" src="images/main-cover3.jpg"  alt="...">
+              </span>
+          </div>
+          <div class="carousel-item container-fluid ">
+              <span class="d-flex justify-content-center mb-3 mb-sm-3">
+                <img class="h-100 ps-5 ms-5" src="images/main-cover3.jpg"  alt="...">
+              </span>
+          </div>
+        </div>
+      </div>
+      <div class="card position-absolute positioning" style="width: 18rem;">
+        <img src="images/favicon.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </section>
   </main>
 
 
