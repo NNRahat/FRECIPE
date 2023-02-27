@@ -6,3 +6,32 @@
     font-weight: 700;
     color: #285753;
 } 
+a{
+    color: #285753 !important;
+}
+
+nav ul li a:hover{
+    color: #000 !important;
+    text-decoration: underline;
+}
+#text-white:hover{
+    color:#fff !important;
+    box-shadow: 3px 2px 9px 2px #dddddd;
+}
+.form-control:focus{
+    background-color: white !important;
+    border: 0.5px solid !important; 
+    border-color: #285753 !important;
+}
+nav .form-control:focus .btn{
+    background-color: black !important;
+    box-shadow: 0 0 0 .09rem #4a9f98 !important;
+} 
+.dropdown:hover>.dropdown-menu {
+    position: absolute;
+    display: block;
+  }
+  .dropdown>.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+      pointer-events: none;
+  }

@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600;700&display=swap" rel="stylesheet">    
     <script src="https://kit.fontawesome.com/5a028787bc.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"> 
     <link rel="stylesheet" href="style/style.css">
     <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
     
@@ -33,30 +34,106 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse d-lg-flex justify-content-between col-lg-11 align-items-center" id="navbarScroll">
-                <ul class="navbar-nav my-2 my-lg-0 navbar-nav-scroll w-100 ps-lg-5 fs-5 d-flex flex-column justify-content-start flex-lg-row justify-content-lg-start" style="--bs-scroll-height: 100px;">
+                <ul class="navbar-nav my-2 navbar-nav-scroll w-100 ps-lg-5 fs-5 d-flex flex-column justify-content-start flex-lg-row justify-content-lg-start" style="--bs-scroll-height: 200px;">
                   <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#"><b>Home</b></a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#"><b>Product</b></a>
+                    <a class="nav-link active" aria-current="page" href="#"><b>Recipes</b></a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#"><b>About Us</b></a>
+                    <a class="nav-link active" aria-current="page" href="#"><b>Trending</b></a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#"><b>Contact</b></a>
+                    <a class="nav-link ms-lg-2 px-4 bg-darkgreen text-light rounded-3" id="text-white" aria-current="page" href=""><b>Login</b></a>
                   </li>
                 </ul>
                 <form class="input-group mw-100 mt-5 my-lg-0" role="search">
-                  <input type="text" class="form-control rounded-start-pill border-0 bg-gray py-3 px-4" placeholder="search" aria-label="" aria-describedby="button-addon2">
+                  <input type="text" class="form-control rounded-start-pill border-0 bg-gray py-3 px-4 " placeholder="search" aria-label="" aria-describedby="button-addon2">
                   <button class="btn btn-outline-secondary rounded-end-pill py-2 px-4 border-0 bg-gray" type="button" id="button-addon2"><i class="fa-solid fa-magnifying-glass"></i></button>
                 </form>
           </div>
         </div>
       </div>
     </nav>
+
+    <!-- second navbar -->
+
+    <div class="nav-scroller bg-body shadow-sm">
+      <nav class="nav" aria-label="Secondary navigation">
+        <ul class="navbar-nav ps-lg-3 mb-2 mb-lg-0 d-lg-flex flex-lg-row flex-row flex-wrap" >
+          <li class="nav-item dropdown mx-2 fs-6 fw-bolder">
+            <a class="nav-link" href="" role="button">DINNERS</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown mx-2 fs-6 fw-bolder">
+            <a class="nav-link" href="" role="button">MEALS</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown mx-2 fs-6 fw-bolder">
+            <a class="nav-link" href="" role="button">INGREDIENTS</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown mx-2 fs-6 fw-bolder">
+            <a class="nav-link" href="" role="button">OCCASIONS</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown mx-2 fs-6 fw-bolder">
+            <a class="nav-link" href="">CUISINES</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown mx-2 fs-6 fw-bolder">
+            <a class="nav-link" href="" role="button">KITCHEN TIPS</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown mx-2 fs-6 fw-bolder">
+            <a class="nav-link" href="" role="button">FEATURES</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item mx-2 fs-6 fw-bolder">
+          <a class="nav-link" href="#">ABOUT US</a>
+        </li>
+        </ul>
+      </nav>
+    </div>
   </header>
   <main>
+    <!--##################### hero ##################### -->
 
   </main>
 
@@ -71,6 +148,7 @@
 
     <!-- Bootstrap JavaScript Libraries -->
     <script src="bootstrap/JS/bootstrap.min.js"></script>
+    <script src="bootstrap/JS/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
