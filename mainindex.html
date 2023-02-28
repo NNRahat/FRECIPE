@@ -135,7 +135,7 @@
   <main>
     <!--####################### hero carousel ########################-->
     <section class="d-flex justify-content-center align-items-center px-0 w-100" style="height: 600px;width: 100vw">
-      <div id="carouselExampleAutoplaying" class="carousel slide vw-100 h-100 overflow-hidden " data-bs-ride="carousel">
+      <div id="carouselExampleAutoplaying" class="carousel slide w-100 h-100 overflow-hidden " data-bs-ride="carousel">
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
@@ -155,7 +155,7 @@
               <a href="" class="link-hover"><h2 class="px-4 py-3">Lorem ipsum, dolor sit amet consectetur.</h2></a>
             </div>
             <span class="position-relative d-flex justify-content-center mb-3 mb-sm-3 z-1">
-              <img class="h-100 ps-5 ms-5" src="images/main-cover3.jpg"  alt="...">
+              <img class="w-100 h-100 objfit-cover" src="images/main-cover3.jpg"  alt="...">
             </span>
           </div>
           <div class="carousel-item container-fluid ">
@@ -163,7 +163,7 @@
               <a href="" class="link-hover"><h2 class="px-4 py-3">Lorem ipsum, dolor sit amet consectetur.</h2></a>
             </div>
             <span class="d-flex justify-content-center mb-3 mb-sm-3">
-              <img class="h-100 ps-5 ms-5" src="images/main-cover3.jpg"  alt="...">
+              <img class="w-100 h-100 objfit-cover" src="images/main-cover3.jpg"  alt="...">
             </span>
           </div>
           <div class="carousel-item container-fluid ">
@@ -171,7 +171,7 @@
               <a href="" class="link-hover"><h2 class="px-4 py-3">Lorem ipsum, dolor sit amet consectetur.</h2></a>
             </div>
             <span class="d-flex justify-content-center mb-3 mb-sm-3">
-              <img class="h-100 ps-5 ms-5" src="images/main-cover3.jpg"  alt="...">
+              <img class="w-100 h-100 objfit-cover" src="images/main-cover3.jpg"  alt="...">
             </span>
           </div>
           
@@ -185,29 +185,65 @@
     <section class="mt-5">
       <div class="container p-4">
         <h1 class="fw-bolder my-5">Featured Recipes</h1>    
-        <div class="recipes-grids">
-          <div class="card rounded-3 overflow-hidden card-big">
-            <img class="h-100 w-100 objfit-cover" src="images/main-cover3.jpg" alt="">
+        <div class="recipes-grids position-relative w-100">
+          <div class="grid-card-group rounded-3 overflow-hidden card-big hovabs">
+            <div class="card">
+              <img class="h-100 w-100 objfit-cover" src="images/main-cover3.jpg" alt="">
+            </div>
+            <div class="overly px-5 position-absolute">
+              <h3>Lorem ipsum dolor sit amet consectetur.</h3>
+            </div>
           </div>
-          <div class="card rounded-3 overflow-hidden card-small">
+        <div class="grid-card-group rounded-3 overflow-hidden card-small hovabs">
+          <div class="card">
             <img class="h-100 w-100 objfit-cover" src="images/favicon.png" alt="">
           </div>
-          <div class="card rounded-3 overflow-hidden card-small">
-            <img class="h-100 w-100 objfit-cover" src="images/favicon.png" alt="">
+          <div class="overly px-5 position-absolute">
+              <h3>Lorem ipsum dolor sit amet consectetur.</h3>
+            </div>
+        </div>
+          <div class="grid-card-group rounded-3 overflow-hidden card-small hovabs">
+            <div class="card">
+              <img class="h-100 w-100 objfit-cover" src="images/favicon.png" alt="">
+            </div>
+            <div class="overly px-5 position-absolute">
+                <h3>Lorem ipsum dolor sit amet consectetur.</h3>
+              </div>
           </div>
-          <div class="card rounded-3 overflow-hidden card-long">
-            <img class="h-100 w-100 objfit-cover" src="images/favicon.png" alt="">
+          <div class="grid-card-group rounded-3 overflow-hidden card-long hovabs">
+            <div class="card h-100 w-100">
+              <img class="h-100 w-100 objfit-cover" src="images/favicon.png" alt="">
+            </div>
+            <div class="overly px-5 position-absolute">
+                <h3>Lorem ipsum dolor sit amet consectetur.</h3>
+              </div>
           </div>
-          <div class="card rounded-3 overflow-hidden card-small">
-            <img class="h-100 w-100 objfit-cover" src="images/favicon.png" alt="">
+          <div class="grid-card-group rounded-3 overflow-hidden card-small hovabs">
+            <div class="card">
+              <img class="h-100 w-100 objfit-cover" src="images/favicon.png" alt="">
+            </div>
+            <div class="overly px-5 position-absolute">
+                <h3>Lorem ipsum dolor sit amet consectetur</h3>
+              </div>
           </div>
-          <div class="card rounded-3 overflow-hidden card-long">
-            <img class="h-100 w-100 objfit-cover" src="images/favicon.png" alt="">
+          <div class="grid-card-group rounded-3 overflow-hidden card-long hovabs">
+            <div class="card h-100 w-100">
+              <img class="h-100 w-100 objfit-cover" src="images/favicon.png" alt="">
+            </div>
+            <div class="overly px-5 position-absolute">
+                <h3>Lorem ipsum dolor sit amet consectetur.</h3>
+              </div>
           </div>
-          <div class="card rounded-3 overflow-hidden card-small">
-            <img class="h-100 w-100 objfit-cover" src="images/main-cover3.jpg" alt="">
+          <div class="grid-card-group rounded-3 overflow-hidden card-small hovabs">
+            <div class="card ">
+              <img class="h-100 w-100 objfit-cover" src="images/main-cover3.jpg" alt="">
+            </div>
+            <div class="overly px-5 position-absolute">
+                <h3>Lorem ipsum dolor sit amet consectetur.</h3>
+            </div>
           </div>
           
+
         </div>
       </div>
       

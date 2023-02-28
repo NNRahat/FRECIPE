@@ -36,13 +36,10 @@ nav .form-control:focus .btn{
     /*Without this, clicking will make it sticky*/
       pointer-events: none;
   }
-.hero-img{
-    margin-left: -143px;
-    left: 50%;
-    top: -50%;
-}
+
+
 .positioning-headline{
-    top: 34%;
+    top: 38%;
     left: 8%;
 }
 
@@ -54,10 +51,41 @@ nav .form-control:focus .btn{
     grid-auto-rows: 240px;
     /* grid-auto-flow: dense; */
 }
+.grid-card-group{
+    position: relative;
+    overflow: hidden;
+}
+.overly{
+    display: none;
+    text-align: center;
+    letter-spacing: 1px;
+    color: rgb(234, 226, 210);
+    width: 100%;
+    left: 0%;
+    bottom: 0%;
+    background-image: linear-gradient(to bottom , transparent , black);
+    transition: .5s;
+}
+.grid-card-group:hover .overly{
+    display: block;
+    padding-bottom: 2% !important;
+}
+.objfit-cover{
+    object-fit: cover;
+    transform: scale(1);
+    transition: 0.5s;
+}
+.grid-card-group:hover .objfit-cover{
+    /* object-fit: none; */
+    transform: scale(1.2);
+    transition: 0.7s;
+}
+
 .card-big{
     /* place-items: center; */
     grid-column: span 2 / auto;
-    grid-row: span 2 / auto;}
+    grid-row: span 2 / auto;
+}
 .card-small{
     /* place-items: center; */
     grid-column: span 1 / auto;
@@ -68,10 +96,6 @@ nav .form-control:focus .btn{
     grid-column: span 1 / auto;
     grid-row: span 2 / auto;
 }
-.objfit-cover{
-    object-fit: cover;
-}
-
 
 
 /* ############################ recipe-intro ############################ */
