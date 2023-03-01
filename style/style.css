@@ -11,7 +11,7 @@ a{
     text-decoration: none !important;
 }
 
-nav ul li a:hover,.link-hover:hover{
+nav ul li a:hover,.link-hover:hover, .non-veges .card-body a:hover{
     color: #000 !important;
     text-decoration: underline !important;
 }
@@ -96,6 +96,48 @@ nav .form-control:focus .btn{
     grid-row: span 2 / auto;
 }
 
+/* ############################ non-veges ############################### */
+.non-veges-wrappper {
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    
+}
+.non-veges-wrappper::-webkit-scrollbar {
+    display: none;
+}
+.pre-btn,
+.nxt-btn {
+  border: none;
+  width: 5vw;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(90deg, transparent, #ffffff);
+  cursor: pointer;
+  z-index: 4;
+}
+
+.pre-btn {
+  left: -2%;
+  transform: rotate(180deg);
+}
+
+.nxt-btn {
+  right: 0;
+}
+
+.pre-btn img,
+.nxt-btn img {
+  opacity: 0.6;
+}
+
+.pre-btn:hover img,
+.nxt-btn:hover img {
+  opacity: 1;
+}
 
 /* ############################ recipe-intro ############################ */
 
