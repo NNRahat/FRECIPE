@@ -39,8 +39,10 @@ nav .form-control:focus .btn{
 
 
 .positioning-headline{
-    top: 38%;
-    left: 8%;
+    padding: 10px 0px 10px;
+    width: 40%;
+    bottom: 15%;
+    left: 15%;
 }
 
 /* ################### recipes-grids ##################### */
@@ -70,13 +72,10 @@ nav .form-control:focus .btn{
     display: block;
     padding-bottom: 2% !important;
 }
-.objfit-cover{
-    object-fit: cover;
-    transform: scale(1);
+.scalingtrans{
     transition: 0.5s;
 }
-.grid-card-group:hover .objfit-cover{
-    /* object-fit: none; */
+.grid-card-group:hover .scalingtrans{
     transform: scale(1.2);
     transition: 0.7s;
 }
