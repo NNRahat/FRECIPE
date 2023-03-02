@@ -1,7 +1,4 @@
-/* .logo h2{
-    font-weight: 700;
-    font-size: 40px;
-} */
+
 #lgdes{
     font-weight: 700;
     color: #285753;
@@ -11,7 +8,7 @@ a{
     text-decoration: none !important;
 }
 
-nav ul li a:hover,.link-hover:hover, .non-veges .card-body a:hover{
+a:hover{
     color: #000 !important;
     text-decoration: underline !important;
 }
