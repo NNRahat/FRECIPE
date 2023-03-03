@@ -118,7 +118,7 @@ nav .form-control:focus .btn{
 }
 
 .pre-btn {
-  left: -2%;
+  left: 0;
   transform: rotate(180deg);
 }
 

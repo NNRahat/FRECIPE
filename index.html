@@ -137,6 +137,8 @@
     </div>
 
   </header>
+
+
   <main>
     <!--####################### hero carousel ########################-->
     <section class="d-flex justify-content-center align-items-center px-0 w-100" style="height: 100vh;">
@@ -252,18 +254,44 @@
       
     </section>
 
+    <!--######################### recipes in 30  ########################### -->
+    <section class="my-5">
+      <div class="container">
+        <h1 class="fw-bolder mt-5 mb-3">Recipes in <span id="lgdes">30</span></h1>    
+        <div>
+          
+        </div>
+      </div>
+    </section>
+
     <!--######################### for non-veges ########################### -->
     <section class="my-5 non-veges">
       <div class="container pt-3">
-        <h1 class="fw-bolder my-3">Meat Special</h1>
+        <h1 class="fw-bolder mb-5">Meat Special</h1>
           <!-- for the slider -->
         <div class="position-relative ">
 
             <!-- slider button -->
-          <button class="pre-btn"><img src="images/arrow.png" alt=""></button>
-          <button class="nxt-btn"><img src="images/arrow.png" alt=""></button>
-          <div class="non-veges-wrappper d-flex align-items-center overflow-hidden">
-              <div class="card rounded-4 col-lg-3 col-md-4 col-sm-5 col-6 col-md-4 col-sm-5 col-6 overflow-hidden me-3" style="width: 18rem;height: 24rem;">
+          <button class="pre-btn">
+              <span class="rounded-circle bg-gray opacity-75 " style="height: 2.5rem;width: 2.5rem;">
+              <label class="h-100 w-100 d-flex justify-content-center align-items-center">
+                <i class="fa-solid fa-chevron-right text-dark fs-2  "></i>
+              </label>
+            </span>
+          </button>
+          <button class="nxt-btn">
+            <span class="rounded-circle bg-gray opacity-75 " style="height: 2.5rem;width: 2.5rem;">
+            <label class="h-100 w-100 d-flex justify-content-center align-items-center">
+              <i class="fa-solid fa-chevron-right text-dark fs-2  "></i>
+            </label>
+          </span>
+        </button>
+          
+          <div class="non-veges-wrappper d-flex align-items-center overflow-hidden ps-3">
+              <div class="card rounded-4 col-lg-3 col-md-4 col-sm-5 col-6 col-md-4 col-sm-5 col-6 overflow-hidden me-3 position-relative" style="width: 18rem;height: 24rem;">
+                <div class="position-absolute z-3" style="right:0%;top:1%;">
+                  <p><i class="fa-regular fa-bookmark"></i></p>
+                </div>
                 <div class="w-100" style="height: 65%;">
                   <img src="images/favicon.png" class="w-100 h-100 object-fit-cover card-img-top" alt="...">
                 </div>
@@ -326,13 +354,9 @@
                   <a href="#" class=""><h5 class="card-title mt-3 mb-2">Card title Some quick example text to build .</h5></a>
                 </div>
               </div>
-              <div class="card rounded-4 col-lg-3 col-md-4 col-sm-5 col-6 overflow-hidden me-3" style="width: 18rem;height: 24rem;">
-                <div class="w-100" style="height: 65%;">
-                  <img src="images/favicon.png" class="w-100 h-100 object-fit-cover card-img-top" alt="...">
-                </div>
-                <div class="card-body">
-                  <small class="card-text fw-semibold ">Some quick example text to build .</small>
-                  <a href="#" class=""><h5 class="card-title mt-3 mb-2">Card title Some quick example text to build .</h5></a>
+              <div class="card rounded-4 col-lg-3 col-md-4 col-sm-5 col-6 overflow-hidden me-3" style="width: 14rem;height: 24rem;">
+                <div class="justify-content-center d-flex align-items-center h-100">
+                  <a class="fs-4" href="">View all <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
               </div>
             </div>
@@ -358,7 +382,7 @@
     </section>
 
 
-    <!-- Must visit -->
+    <!-- ######################## Must visit ############################# -->
         <section class="my-5">
           <div class="container">
             <h1 class="fw-bolder my-3">Must visit</h1>
