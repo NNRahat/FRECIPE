@@ -3,10 +3,10 @@
     margin: 0;
 }
 :root{
-    --bs-light-beige: #C6D5C6;
+    --bs-pale-green: #C6D5C6;
 }
 .colorset{
-    background-color: var(--bs-light-beige);
+    background-color: var(--bs-pale-green);
 }
 .gap{
     margin-top: 100px !important;
@@ -21,7 +21,8 @@ a{
     text-decoration: none !important;
 }
 a:hover{
-    color: #EDAE49 !important;
+    cursor: pointer;
+    color: #407e78 !important;
     text-decoration: underline !important;
 }
 .diffhov:hover{
@@ -31,8 +32,8 @@ body > header > nav > div > div > div.logo.col-10.col-lg-1 > a > h2{
     color: #000;
 }
 #text-white:hover{
-    /* color:#fff !important; */
-    box-shadow: 3px 2px 9px 2px #dddddd;
+    color:#407e78 !important;
+    box-shadow: 3px 2px 9px 2px #cedcce;
 }
 .form-control:focus{
     background-color: white !important;
@@ -153,9 +154,11 @@ nav .form-control:focus .btn{
 .nxt-btn:hover img {
   opacity: 1;
 }
-
+/* #hov-next-prev{
+    background-color: #000;
+} */
 #hov-next-prev:hover{
-    background-color: #000 !important;
+    background-color: var(--bs-pale-green) !important;
 }
 .hov-color{
     transition: 0.5s;
