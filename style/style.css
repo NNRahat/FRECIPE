@@ -2,6 +2,12 @@
     padding: 0;
     margin: 0;
 }
+:root{
+    --bs-light-beige: #C6D5C6;
+}
+.colorset{
+    background-color: var(--bs-light-beige);
+}
 .gap{
     margin-top: 100px !important;
     margin-bottom: 100px !important;
@@ -15,7 +21,7 @@ a{
     text-decoration: none !important;
 }
 a:hover{
-    color: #D9CB9E !important;
+    color: #EDAE49 !important;
     text-decoration: underline !important;
 }
 .diffhov:hover{
@@ -124,7 +130,7 @@ nav .form-control:focus .btn{
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(90deg, transparent, #ffffff);
+  background: linear-gradient(90deg, transparent, #C8D5C8 );
   cursor: pointer;
   z-index: 4;
 }
