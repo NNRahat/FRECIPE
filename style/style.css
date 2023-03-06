@@ -171,15 +171,11 @@ nav .form-control:focus .btn{
 /* ############################ recipe-intro ############################ */
 
 .positioning{
-    top: 70%;
+    /* top: 96%; */
+    bottom: -29%;
     right: 10%;
 }
-.img-in-the-card{
-    position: absolute;
-    margin-left: -143px;
-    left: 50%;
-    top: -50%;
-}
+
 .cust{
     list-style: none;
 }

@@ -21,18 +21,23 @@
 
 </head>
 
-<body>
-  <header class="">
+<body class="colorset">
+  <header>
     <!-- place navbar here -->
-    <nav class="navbar navbar-expand-lg pb-0 bg-body-primary d-flex justify-content-center align-items-center px-2">
+    <nav class="colorset navbar navbar-expand-lg pb-0 bg-body-primary d-flex justify-content-center align-items-center px-2">
       <div class="container-fluid my-3 d-lg-flex justify-content-between align-items-center">
         <div class="row w-100">
+          <!-- logos -->
           <div class="logo col-10 col-lg-1">
-            <h2 class="fs-1 fw-bold">Frec<Span id="lgdes">i</Span>pe<Span id="lgdes">.</Span></h2>
+            <a href="index.html"><h2 id="logoid" class="fs-1 fw-bold">Frec<Span id="lgdes">i</Span>pe<Span id="lgdes">.</Span></h2></a>
           </div>
+
+          <!-- burger icon -->
           <button class="navbar-toggler col-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
+
+          <!-- links -->
           <div class="collapse navbar-collapse d-lg-flex justify-content-between col-lg-11 align-items-center" id="navbarScroll">
               <ul class="navbar-nav my-2 navbar-nav-scroll w-100 ps-lg-5 fs-5 d-flex flex-column justify-content-start flex-lg-row justify-content-lg-start" style="--bs-scroll-height: 200px;">
                 <li class="nav-item">
@@ -45,7 +50,7 @@
                   <a class="nav-link active" aria-current="page" href="#"><b>Trending</b></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link ms-lg-2 px-4 bg-darkgreen text-light rounded-3" id="text-white" aria-current="page" href=""><b>Login</b></a>
+                  <a class="nav-link ms-lg-2 px-4 bg-darkgreen text-light rounded-3 pe-auto" id="text-white" aria-current="page" href=""><b>Login</b></a>
                 </li>
               </ul>
               <form class="input-group mw-100 mt-5 my-lg-0" role="search">
@@ -58,8 +63,7 @@
     </nav>
 
     <!-- second navbar -->
-
-    <div class="nav-scroller bg-body shadow-sm">
+    <div class="colorset nav-scroller shadow-sm pb-1">
       <nav class="nav" aria-label="Secondary navigation">
         <ul class="navbar-nav ps-lg-3 mb-2 mb-lg-0 d-lg-flex flex-lg-row flex-row flex-wrap" >
           <li class="nav-item dropdown mx-2 fs-6 fw-bolder">
@@ -131,60 +135,117 @@
         </ul>
       </nav>
     </div>
+
   </header>
-  <main>
-    <section class="d-flex justify-content-center align-items-center px-0 w-100" style="height: 600px;width: 100vw">
+
+
+  <main class="colorset">
+    <!--####################### hero carousel ########################-->
+    <section class="d-flex flex-column justify-content-center align-items-center px-0 w-100 position-relative" style="height: 100vh;">
       <div id="carouselExampleAutoplaying" class="carousel slide w-100 h-100 overflow-hidden " data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0" class="active bg-lightgreen px-3 me-2" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1" class="bg-lightgreen px-3 me-2" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="2" class="bg-lightgreen px-3 me-2" aria-label="Slide 3"></button>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+        <div class="carousel-indicators z-3 pb-4">
+          <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0" class="active bg-lightgreen px-4 me-2" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1" class="bg-lightgreen px-4 me-2" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="2" class="bg-lightgreen px-4 me-2" aria-label="Slide 3"></button>
         </div>
-        <div class="carousel-inner bg-hero">
-          <div class="carousel-item active container-fluid ">
-              <span class="position-relative d-flex justify-content-center mb-3 mb-sm-3">
-                <img class="h-100 ps-5 ms-5" src="images/main-cover3.jpg"  alt="...">
-              </span>
+        <div class="carousel-inner z-0 h-100">
+          <div class="carousel-item active container-fluid h-100">
+            <div class="card position-absolute positioning-headline rounded-0 z-2">
+              <a href="" class="link-hover"><h2 class="px-4 py-3">Lorem ipsum, dolor sit amet consectetur.</h2></a>
+            </div>
+            <span class="position-relative d-flex justify-content-center h-100 z-1">
+              <img class="w-100 h-100 object-fit-cover" src="images1/pizza.jpg"  alt="...">
+            </span>
           </div>
-          <div class="carousel-item container-fluid ">
-              <span class="d-flex justify-content-center mb-3 mb-sm-3">
-                <img class="h-100 ps-5 ms-5" src="images/main-cover3.jpg"  alt="...">
-              </span>
+          <div class="carousel-item container-fluid h-100">
+            <div class="card position-absolute positioning-headline rounded-0 z-2">
+              <a href="" class="link-hover"><h2 class="px-4 py-3">Lorem ipsum, dolor sit amet consectetur.</h2></a>
+            </div>
+            <span class="d-flex justify-content-center h-100">
+              <img class="w-100 h-100 object-fit-cover" src="images1/chicken.jpg"  alt="...">
+            </span>
           </div>
-          <div class="carousel-item container-fluid ">
-              <span class="d-flex justify-content-center mb-3 mb-sm-3">
-                <img class="h-100 ps-5 ms-5" src="images/main-cover3.jpg"  alt="...">
-              </span>
+          <div class="carousel-item container-fluid h-100">
+            <div class="card position-absolute positioning-headline rounded-0 z-2">
+              <a href="" class="link-hover"><h2 class="px-4 py-3">Lorem ipsum, dolor sit amet consectetur.</h2></a>
+            </div>
+            <span class="d-flex justify-content-center h-100">
+              <img class="w-100 h-100 object-fit-cover" src="images1/chicken-bun.jpg"  alt="...">
+            </span>
           </div>
-        </div>
-      </div>
-      <div class="card position-absolute positioning" style="width: 18rem;">
-        <div class="position-relative overflow-hidden w-100" style="height: 100px;">
-          <img src="images/favicon.png" class="card-img-top img-in-the-card" alt="...">
-        </div>
-        <div class="card-body">
-          <ul class="px-0 py-1">
-            <li class="cust mb-2"> <span class="fw-semibold">Cook :</span>1h 20min</li>
-            <li class="cust mb-2"> <span class="fw-semibold">Additional :</span>1h 20min</li>
-            <li class="cust mb-2"> <span class="fw-semibold">Total :</span>1h 20min</li>
-            <li class="cust mb-2"> <span class="fw-semibold">Servings :</span>1h 20min</li>
-            <li class="cust"> <span class="fw-semibold">Yield :</span>1h 20min</li>
-          </ul>
         </div>
       </div>
       
+
+      <div class="d-lg-block d-none card position-absolute positioning colorset" style="width: 20rem;">
+          <div class="position-relative overflow-hidden w-100" style="height: 100px;">
+            <img src="images/favicon.png" class="card-img-top" alt="...">
+          </div>
+          <div class="card-body colorset">
+            <ul class="px-0 py-1">
+              <li class="cust mb-2"> <span class="fw-semibold">Cook :</span>1h 20min</li>
+              <li class="cust mb-2"> <span class="fw-semibold">Additional :</span>1h 20min</li>
+              <li class="cust mb-2"> <span class="fw-semibold">Total :</span>1h 20min</li>
+              <li class="cust mb-2"> <span class="fw-semibold">Servings :</span>1h 20min</li>
+              <li class="cust"> <span class="fw-semibold">Yield :</span>1h 20min</li>
+            </ul>
+          </div>
+      </div>
+
+      <!-- responsive of above card ^ -->
+      <div class="d-lg-none d-block card colorset container p-0">
+          <div class="card-body colorset">
+            <ul class="px-0 py-1">
+              <li class="cust mb-2"> <span class="fw-semibold">Cook :</span>1h 20min</li>
+              <li class="cust mb-2"> <span class="fw-semibold">Additional :</span>1h 20min</li>
+              <li class="cust mb-2"> <span class="fw-semibold">Total :</span>1h 20min</li>
+              <li class="cust mb-2"> <span class="fw-semibold">Servings :</span>1h 20min</li>
+              <li class="cust"> <span class="fw-semibold">Yield :</span>1h 20min</li>
+            </ul>
+          </div>
+      </div>
+      <!-- responsive of above card ^ -->
+
     </section>
-    
+
+    <!-- ######################### INGREDIENTS ########################## -->
+    <section> 
+      <div class="">
+
+      </div>
+    </section>
+
   </main>
 
 
 
 
-  <footer>
-    <!-- place footer here -->
-  </footer>
+  <!--############################### footer ######################### -->
+  <div class="">
+    <footer class="container-fluid d-flex flex-wrap justify-content-between align-items-center py-3 px-lg-5 mt-4 mb-0 border-top text-light bg-dark">
+      <div class="col-md-4 d-flex align-items-center">
+          <a href=""><h2 id="logoid" class="fs-1 fw-bold text-light">Frec<Span id="lgdes">i</Span>pe<Span id="lgdes">.</Span></h2></a>
+        <span class="mb-0 mb-md-0 ">&emsp;&copy; 2023 Frecipe, Inc.</span>
+      </div>
+  
+      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex fs-3">
+        <li class="ms-4"><a class="diffhov" href="#"><i class="fa-brands fa-twitter"></i></a></li>
+        <li class="ms-4"><a class="diffhov" href="#"><i class="fa-brands fa-facebook"></i></a></li>
+        <li class="ms-4"><a class="diffhov" href="#"><i class="fa-brands fa-instagram"></i></a></li>
+      </ul>
+    </footer>
+  </div>
 
 
+    <script src="js/script.js"></script>
 
     <!-- Bootstrap JavaScript Libraries -->
     <script src="bootstrap/JS/bootstrap.min.js"></script>
