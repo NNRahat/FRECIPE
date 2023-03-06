@@ -15,7 +15,7 @@ a{
     text-decoration: none !important;
 }
 a:hover{
-    color: #000 !important;
+    color: #D9CB9E !important;
     text-decoration: underline !important;
 }
 .diffhov:hover{
@@ -25,7 +25,7 @@ body > header > nav > div > div > div.logo.col-10.col-lg-1 > a > h2{
     color: #000;
 }
 #text-white:hover{
-    color:#fff !important;
+    /* color:#fff !important; */
     box-shadow: 3px 2px 9px 2px #dddddd;
 }
 .form-control:focus{
