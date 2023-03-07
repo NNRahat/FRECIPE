@@ -156,7 +156,7 @@
           <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="2" class="bg-lightgreen px-4 me-2" aria-label="Slide 3"></button>
         </div>
         <div class="carousel-inner z-0 h-100">
-          <div class="carousel-item active container-fluid h-100">
+          <div class="carousel-item active container-fluid px-0 h-100">
             <span class="position-relative d-flex justify-content-center h-100 z-1">
               <img class="w-100 h-100 object-fit-cover" src="images1/pizza.jpg"  alt="...">
             </span>
@@ -171,16 +171,16 @@
       <!-- bookmark button -->
 
       <!-- card -->
-      <div class="d-lg-block d-none card position-absolute positioning colorset" style="width: 20rem;">
+      <div class="d-lg-block d-none card position-absolute positioning colorset overflow-hidden" style="width: 20rem;">
           <div class="position-relative overflow-hidden w-100" style="height: 100px;">
             <img src="images/favicon.png" class="card-img-top" alt="...">
           </div>
-          <div class="card-body colorset">
+          <div class="card-body bg-gray">
             <ul class="px-0 py-1">
-              <li class="cust mb-2"> <span class="fw-semibold">Cook :</span>1h 20min</li>
-              <li class="cust mb-2"> <span class="fw-semibold">Additional :</span>1h 20min</li>
-              <li class="cust mb-2"> <span class="fw-semibold">Total :</span>1h 20min</li>
-              <li class="cust mb-2"> <span class="fw-semibold">Servings :</span>1h 20min</li>
+              <li class="cust mb-3"> <span class="fw-semibold">Cook :</span>1h 20min</li>
+              <li class="cust mb-3"> <span class="fw-semibold">Additional :</span>1h 20min</li>
+              <li class="cust mb-3"> <span class="fw-semibold">Total :</span>1h 20min</li>
+              <li class="cust mb-3"> <span class="fw-semibold">Servings :</span>1h 20min</li>
               <li class="cust"> <span class="fw-semibold">Yield :</span>1h 20min</li>
             </ul>
           </div>
@@ -188,7 +188,7 @@
       <!-- card -->
 
       <!-- responsive of above card ^ -->
-      <div class="d-lg-none d-block card colorset container p-0">
+      <div class="d-lg-none d-block card container p-0">
           <div class="card-body colorset">
             <ul class="px-0 py-1">
               <li class="cust mb-2"> <span class="fw-semibold">Cook :</span>1h 20min</li>
@@ -207,7 +207,32 @@
     <section> 
       <div class="d-flex container ">
         <div class="w-50 ">
-          
+          <!-- rating -->
+          <div class="py-5 fs-5">
+            <p class="mb-0 d-flex align-items-center">
+              <span class="text-muted">Reviewed by 100  
+              </span>
+              <span class="ms-3 fs-6">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i><span class="ms-2 fw-semibold">4.6</span>
+              </span>
+          </p>
+          </div>
+          <div class="bg-gray rounded-3  p-5">
+            <div class="mb-5">
+              <h3>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, maiores ipsa similique nostrum molestias tempora repellat?
+              </h3>
+            </div>
+            <div class="d-flex align-items-center">
+              <span class="overflow-hidden rounded-circle" style="width:80px;height: 80px;">
+                <img class="h-100 w-100 object-fit-cover" src="images/favicon.png" alt="">
+              </span>
+              <span>
+                <h4>lorem ipsum</h4>
+                <p>lorem, ipsum</p>
+              </span>
+            </div>
+          </div>
         </div>
         <div class="w-50"></div>
 

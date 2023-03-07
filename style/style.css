@@ -4,6 +4,10 @@
 }
 :root{
     --bs-pale-green: #C6D5C6;
+    --bs-fa-solid-color: #4c7c61;
+}
+.fa-solid{
+    color: var(--bs-fa-solid-color);
 }
 .colorset{
     background-color: var(--bs-pale-green);
@@ -17,12 +21,12 @@
     color: #285753;
 } 
 a{
-    color: #285753 !important;
+    color: #416852 !important;
     text-decoration: none !important;
 }
 a:hover{
     cursor: pointer;
-    color: #407e78 !important;
+    color: #285753 !important;
     text-decoration: underline !important;
 }
 .diffhov:hover{
@@ -31,8 +35,12 @@ a:hover{
 body > header > nav > div > div > div.logo.col-10.col-lg-1 > a > h2{
     color: #212529;
 }
+#text-white{
+    background: #3f634e !important;
+}
 #text-white:hover{
     color:#fff !important;
+    background: #285753 !important;
     box-shadow: 3px 2px 9px 2px #cedcce;
 }
 .form-control:focus{
@@ -172,7 +180,7 @@ nav .form-control:focus .btn{
 
 .positioning{
     /* top: 96%; */
-    bottom: -29%;
+    bottom: -33.9%;
     right: 10%;
 }
 
