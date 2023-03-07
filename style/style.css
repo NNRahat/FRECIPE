@@ -30,7 +30,7 @@ a:hover{
     text-decoration: underline !important;
 }
 .diffhov:hover{
-    color: white !important;
+    color: #eceef0 !important;
 }
 body > header > nav > div > div > div.logo.col-10.col-lg-1 > a > h2{
     color: #212529;
@@ -180,8 +180,8 @@ nav .form-control:focus .btn{
 
 .positioning{
     /* top: 96%; */
-    bottom: -33.9%;
-    right: 10%;
+    bottom: -45.9%;
+    right: 7%;
 }
 
 .cust{
