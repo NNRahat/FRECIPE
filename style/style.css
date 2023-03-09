@@ -5,6 +5,7 @@
 :root{
     --bs-pale-green: #C6D5C6;
     --bs-fa-solid-color: #4c7c61;
+    --bs-new-color:#3f634e;
 }
 .fa-solid{
     color: var(--bs-fa-solid-color);
@@ -36,7 +37,7 @@ body > header > nav > div > div > div.logo.col-10.col-lg-1 > a > h2{
     color: #212529;
 }
 #text-white{
-    background: #3f634e !important;
+    background: var(--bs-new-color) !important;
 }
 #text-white:hover{
     color:#fff !important;
@@ -180,7 +181,7 @@ nav .form-control:focus .btn{
 
 .positioning{
     /* top: 96%; */
-    bottom: -45.9%;
+    bottom: -57.9%;
     right: 8%;
 }
 
@@ -191,3 +192,7 @@ nav .form-control:focus .btn{
     content: "🍳";
 }
 
+.ingred-list{
+    border: solid 1.5px var(--bs-new-color) !important;
+    /* border-color: var(--bs-new-color) !important; */
+}

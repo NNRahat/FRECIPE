@@ -171,7 +171,7 @@
       <!-- bookmark button -->
 
       <!-- card -->
-      <div class="d-lg-block d-none card position-absolute positioning bg-gray overflow-hidden" style="width: 25rem;">
+      <div class="d-lg-block d-none rounded-4 card position-absolute positioning bg-gray overflow-hidden" style="width: 25rem;">
           <div class="position-relative overflow-hidden w-100" style="height: 100px;">
             <img src="images/favicon.png" class="card-img-top" alt="...">
           </div>
@@ -209,6 +209,8 @@
     <!-- ######################### INGREDIENTS ########################## -->
     <section> 
       <div class="d-flex container ">
+
+        <!-- all details part  -->
         <div class="w-50 ">
           <!-- rating -->
           <div class="py-5 fs-5">
@@ -222,29 +224,93 @@
           </div>
 
           <!-- detail card -->
-          <div class="bg-gray rounded-3 p-5">
+          <div class="bg-gray rounded-4 p-5 mb-5">
             <div class="mb-5">
               <h3>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, maiores ipsa similique nostrum molestias tempora repellat?
               </h3>
             </div>
-            <div class="d-flex align-items-center">
-              <span class="overflow-hidden rounded-circle" style="width:80px;height: 80px;">
+            <div class="d-flex align-items-center justify-content-start">
+              <span class="overflow-hidden rounded-circle me-3" style="width:80px;height: 80px;">
                 <img class="h-100 w-100 object-fit-cover" src="images/favicon.png" alt="">
               </span>
-              <span>
-                <h4>lorem ipsum</h4>
+              <span class="d-flex flex-column mt-3">
+                <a class="text-dark" href=""><h4>lorem ipsum</h4></a>
                 <p>lorem, ipsum</p>
               </span>
             </div>
           </div>
 
           <!-- INGREDIENTS list -->
-          <div>
-            <h4>INGREDIENTS</h4>
-            <label></label>
+          <div class="d-lg-flex p-3" >
+            <!-- static header only -->
+            <div class="w-25 me-4 d-lg-flex align-items-start">
+              <h4 class="m-0">INGREDIENTS:</h4>
+            </div>
+            <!-- dynamic ingredient list -->
+            <div class="d-lg-flex w-75 flex-lg-column">
+              <div class="d-lg-flex mb-3">
+                <span class="align-items-start">
+                  <label class="rounded-circle ingred-list me-3 d-flex justify-content-center align-items-center" style="width: 2rem;height: 2rem;">1</label>
+                </span>
+                <span>
+                  <label class="d-lg-flex align-items-center">
+                    <p class="m-0 fw-semibold" style="font-size:18px;">2 table spoon extra virgin olive oil</p>
+                  </label>
+                </span>
+              </div>
+
+              
+            </div>
           </div>
+
+          <!-- DIRECTION -->
+          <div class="d-lg-flex p-3" >
+            <!-- static header only -->
+            <div class="w-25 me-4 d-lg-flex align-items-start">
+              <h4 class="m-0">Directions:</h4>
+            </div>
+            <!-- dynamic direction list -->
+            <div class="d-lg-flex w-75 flex-lg-column">
+              <div class="d-lg-flex mb-3">
+                <span class="align-items-start">
+                  <label class="rounded-circle ingred-list me-3 d-flex justify-content-center align-items-center" style="width: 2rem;height: 2rem;">1</label>
+                </span>
+                <span>
+                  <label class="d-lg-flex align-items-center">
+                    <p class="m-0 fw-semibold" style="font-size:18px;">2 table spoon extra virgin olive oil2 table spoon extra virgin olive oil2 table spoon extra virgin olive oil</p>
+                  </label>
+                </span>
+              </div>
+              <div class="d-lg-flex mb-3">
+                <span class="align-items-start">
+                  <label class="rounded-circle ingred-list me-3 d-flex justify-content-center align-items-center" style="width: 2rem;height: 2rem;">1</label>
+                </span>
+                <span>
+                  <label class="d-lg-flex align-items-center">
+                    <p class="m-0 fw-semibold" style="font-size:18px;">2 table spoon extra virgin olive oil2 table spoon extra virgin olive oil2 table spoon extra virgin olive oil</p>
+                  </label>
+                </span>
+              </div>
+              <div class="d-lg-flex mb-3">
+                <span class="align-items-start">
+                  <label class="rounded-circle ingred-list me-3 d-flex justify-content-center align-items-center" style="width: 2rem;height: 2rem;">1</label>
+                </span>
+                <span>
+                  <label class="d-lg-flex align-items-center">
+                    <p class="m-0 fw-semibold" style="font-size:18px;">2 table spoon extra virgin olive oil2 table spoon extra virgin olive oil2 table spoon extra virgin olive oil</p>
+                  </label>
+                </span>
+              </div>
+              
+            </div>
+          </div>
+
+
         </div>
+
+
+        <!-- video part  -->
         <div class="w-50"></div>
 
       </div>
