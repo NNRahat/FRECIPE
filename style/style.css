@@ -6,6 +6,7 @@
     --bs-pale-green: #C6D5C6;
     --bs-fa-solid-color: #4c7c61;
     --bs-new-color:#3f634e;
+    --bs-for-a:#3a6a4f;
 }
 .fa-solid{
     color: var(--bs-fa-solid-color);
@@ -22,7 +23,7 @@
     color: #285753;
 } 
 a{
-    color: #416852 !important;
+    color: var(--bs-for-a) !important;
     text-decoration: none !important;
 }
 a:hover{
