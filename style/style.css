@@ -6,7 +6,6 @@
 .override-modal-open {
     overflow-y: scroll;
 }
-
 :root{
     --bs-pale-green: #C6D5C6;
     --bs-fa-solid-color: #4c7c61;
