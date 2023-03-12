@@ -61,40 +61,35 @@
         </div>
       </div>
     </nav>
-  </header>
-
-  <!-- Modal -->
-<!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@getbootstrap">Open modal for @getbootstrap</button> -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h1 class="modal-title fs-5" id="exampleModalLabel">New message</h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <form>
-          <div class="mb-3">
-            <label for="recipient-name" class="col-form-label">Recipient:</label>
-            <input type="text" class="form-control" id="recipient-name">
+    <!--######################### Modal ##########################-->
+    <div class="modal pt-5 fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content bg-palegreen">
+          <div class="modal-header border-0">
+            <h1 class="modal-title fs-4 fw-bolder" id="exampleModalLabel">LOG IN</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
-          <div class="mb-3">
-            <label for="message-text" class="col-form-label">Message:</label>
-            <textarea class="form-control" id="message-text"></textarea>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <label for="recipient-name" class="col-form-label">Email:</label>
+                <input type="text" class="form-control" id="recipient-name">
+              </div>
+              <div class="mb-3">
+                <label for="message-text" class="col-form-label">Password:</label>
+                <input type="password" class="form-control" id="recipient-name">
+              </div>
+            </form>
           </div>
-        </form>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Send message</button>
+          <div class="modal-footer border-0">
+            <button type="button" class="btn bg-darkgreen text-light">Log in</button>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</div>
+  </header>
 
-
-
-  <!-- second navbar -->
+  <!--########################## second navbar ##############################-->
     <div class="colorset nav-scroller shadow-sm pb-1 pt-1 position-sticky left-0 z-3 mt-0" style="top: -0.9%;">
       <nav class="nav" aria-label="Secondary navigation">
         <ul class="navbar-nav ps-lg-3 mb-2 mb-lg-0 d-lg-flex flex-lg-row flex-row flex-wrap" >
@@ -163,14 +158,11 @@
           </li>
           <li class="nav-item mx-2 fs-6 fw-bolder">
           <a class="nav-link" href="#">ABOUT US</a>
-          </li>
-          <a type="button" class="nav-link ms-lg-2 px-4 bg-darkgreen text-light rounded-3 pe-auto" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@getbootstrap" id="text-white" aria-current="page" href=""><b>Login</b></a>
+          </li> 
         </ul>
       </nav>
     </div>
-  
-  
-  
+
   
   
     <main class="colorset">
