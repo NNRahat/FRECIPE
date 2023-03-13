@@ -87,29 +87,36 @@
                 <h1 class="fw-bold mb-0 fs-2">Log In</h1>
               </div>
               <form class="">
+                <!-- email -->
                 <div class="form-floating mb-3">
                   <input type="email" class="form-control rounded-3" id="floatingInput" placeholder="name@example.com">
                   <label for="floatingInput">Email address</label>
                 </div>
+                <!-- password -->
                 <div class="form-floating mb-3">
                   <input type="password" class="form-control rounded-3" id="floatingPassword" placeholder="Password">
                   <label for="floatingPassword">Password</label>
                 </div>
-                <button class="w-100 mb-2 btn btn-lg rounded-3 bg-darkgreen text-light" type="submit">Sign up</button>
-                <small class="text-muted">By clicking Sign up, you agree to the terms of use.</small>
-                <hr class="my-4">
-                <h2 class="fs-5 fw-bold mb-3">Or use a third-party</h2>
+                <button class="w-100 mb-2 btn btn-lg rounded-3 bg-darkgreen text-light" type="submit">Log in</button>
+                <span class="d-flex justify-content-between align-items-center my-3">
+                  <hr style="width: 40%;">
+                  <h2 class="fs-5 fw-bold w-25 text-center">Or</h2>
+                  <hr style="width: 40%;">
+                </span>
+                <!-- google -->
                 <button class="w-100 py-2 mb-2 btn btn-outline-dark rounded-3" type="submit">
                   <i class="fa-brands fa-google"></i>
-                  Sign up with google
+                  Log in with google
                 </button>
+                <!-- fb -->
                 <button class="w-100 py-2 mb-2 btn btn-outline-primary rounded-3" type="submit">
                   <i class="fa-brands fa-facebook"></i>
-                  Sign up with Facebook
+                  Log in with Facebook
                 </button>
+                <!-- github -->
                 <button class="w-100 py-2 mb-2 btn btn-outline-secondary rounded-3" type="submit">
                   <i class="fa-brands fa-github"></i>
-                  Sign up with GitHub
+                  Log in with GitHub
                 </button>
               </form>
             </div>
@@ -127,10 +134,18 @@
                   <input type="password" class="form-control rounded-3" id="floatingPassword" placeholder="Password">
                   <label for="floatingPassword">Password</label>
                 </div>
+                <div class="form-floating mb-3">
+                  <input type="password" class="form-control rounded-3" id="floatingPassword" placeholder="Password">
+                  <label for="floatingPassword">Confirm Password</label>
+                </div>
                 <button class="w-100 mb-2 btn btn-lg rounded-3 bg-darkgreen text-light" type="submit">Sign up</button>
                 <small class="text-muted">By clicking Sign up, you agree to the terms of use.</small>
-                <hr class="my-4">
-                <h2 class="fs-5 fw-bold mb-3">Or use a third-party</h2>
+                <!-- hr and or -->
+                <span class="d-flex justify-content-between align-items-center my-3">
+                  <hr style="width: 40%;">
+                  <h2 class="fs-5 fw-bold w-25 text-center">Or</h2>
+                  <hr style="width: 40%;">
+                </span>
                 <button class="w-100 py-2 mb-2 btn btn-outline-dark rounded-3" type="submit">
                   <i class="fa-brands fa-google"></i>
                   Sign up with google
