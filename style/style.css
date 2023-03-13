@@ -5,6 +5,7 @@
 /* body */
 .override-modal-open {
     overflow-y: scroll;
+    
 }
 :root{
     --bs-pale-green: #C6D5C6;
