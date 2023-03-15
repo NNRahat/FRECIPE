@@ -13,6 +13,17 @@
     --bs-new-color:#3f634e;
     --bs-for-a:#3a6a4f;
 }
+
+/* profile pic after log in###################### */
+.userpicture{
+    width: 40px;
+    height: 40px;
+    /* margin-left: 9px; */
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
 .fa-solid{
     color: var(--bs-fa-solid-color);
 }
@@ -202,3 +213,4 @@ nav .form-control:focus .btn{
     border: solid 1.5px var(--bs-new-color) !important;
     /* border-color: var(--bs-new-color) !important; */
 }
+
