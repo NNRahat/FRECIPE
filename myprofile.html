@@ -244,9 +244,10 @@
 
   <main class="colorset">
 
-    <!--######################## sidebar ############################-->
+    <!--######################## sidebar & contents ############################-->
     <div class="container-fluid px-4 mt-5">
         <div class="row">
+            <!-- sidebar -->
             <div class="col-lg-3 pt-0">
               <div class="position-sticky p-3 m-0 rounded-3 pt-0" style="left:0;top: 10%;">
                 <ul class="nav nav-tabs for-focus flex-column mx-1 bg-gray text-center shadow">
@@ -264,12 +265,14 @@
               </div>
                 
             </div>
+
+            <!-- contents -->
             <div class="tab-content bg-gray col-lg-9 shadow">
                 <!--#### Personal Info ###-->
-                <div id="personal-info" class="tab-pane p-5 show active">
+                <div id="personal-info" class="tab-pane p-5">
                   <div class="d-flex justify-content-between align-items-center p-2 mb-4">
                     <h1>Personal Info</h1>
-                    <button class="btn bg-darkgreen py-2 text-light">Save Changes</button>
+                    <button class="btn bg-darkgreen py-3 px-4 text-light">Save Changes</button>
                   </div>
                   <!-- basic info -->
                   <div class="container">
@@ -302,12 +305,11 @@
                   </div>
                 </div>
 
-                
                 <!--### Public Profile Setting ### -->
                 <div id="Public-Profile-Setting" class="tab-pane p-5">
                   <div class="d-flex justify-content-between align-items-center p-2 mb-4">
                     <h1>Public Profile Setting</h1>
-                    <button class="btn bg-darkgreen py-2 text-light">Save Changes</button>
+                    <button class="btn bg-darkgreen py-3 px-4 text-light">Save Changes</button>
                   </div>
                   <!-- Display info -->
                   <div class="container mb-5 fs-5 fw-semibold">
@@ -361,28 +363,39 @@
                 </div>
 
                 <!--### Change Password ### -->
-                <div id="Change-Password" class="tab-pane">
-                  <div class="p-4">
+                <div id="Change-Password" class="tab-pane show active p-5">
+                  <div class="d-flex justify-content-between align-items-center p-2 mb-4">
                     <h1>Change Password</h1>
+                    <button class="btn bg-darkgreen py-3 px-4 text-light ">Save Changes</button>
                   </div>
                   <div>
-                    <label for=""></label>
-                    <input type="text">
-                    <label for=""></label>
-                    <input type="text">
-                    <label for=""></label>
-                    <input type="text">
-                    <label for=""></label>
-                    <input type="text">
+                    <div class="container fw-semibold fs-5">
+                      <div class="row">
+                        <span class="d-flex flex-column mb-3 col-6">
+                          <label for="">Enter Your Old Password:</label>
+                          <input type="text" class="rounded-3 px-2" style="height: 50px;border: 1px solid;">
+                        </span>
+
+                        <span class="container-fluid col-12">
+                          <span class="row">
+                            <span class="d-flex flex-column mb-3 col-6">
+                              <label for="">New Password:</label>
+                              <input type="text" class="rounded-3 px-2" style="height: 50px;border: 1px solid;">
+                            </span>
+                            <span class="d-flex flex-column mb-3 col-6">
+                              <label for="">Confirm Password:</label>
+                              <input type="text" class="rounded-3 px-2" style="height: 50px;border: 1px solid;">
+                            </span>
+                          </span>
+                        </span>
+                      </div>
+                    </div>
                   </div>
                 </div>
             </div>
         </div>
     </div>
   </main>
-
-
-
 
   <!--############################### footer ######################### -->
   <div class="">
